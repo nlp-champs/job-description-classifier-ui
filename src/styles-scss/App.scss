@@ -1,0 +1,37 @@
+// any bootstrap overrides would go here...
+#notification-wrapper span {
+  display: inline-block !important;
+}
+
+.requiredSkill {
+ background-color: #FF8454 !important;
+}
+.degree {
+ background-color: #FFD15C !important;
+}
+.years {
+ background-color: #EDFF6D !important;
+}
+.desiredSkill {
+ background-color: #A2F2B0 !important;
+}
+.benefits {
+ background-color: #82F1FF !important;
+}
+.company {
+ background-color: #c4c4be !important;
+}
+.nA {
+ background-color: #858584 !important;
+}
+
+// bootstrap styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "portfolio.scss";
+@import "contact.scss";
+@import "bootstrap-overrides.scss";
